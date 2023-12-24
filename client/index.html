@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football Scores</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./app.js" defer type="module" ></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <h1> This football score app has a client and database</h1>
+<div class="form">
+<form id="scoreForm">
+  <label>Team</label>
+  <input name="team" placeholder="football team">
+
+  <label>Results</label>
+  <input name="results" placeholder="full results">
+  <button>Enter</button>
+</form>
+</div>
+<div id="scoreContainer"></div>
+<button id="delete">x</button>
+<div class="rating-container">
+  <div class="rating">
+<span class="rating-btn material-icons">thumb_up</span>
+<span class="rating-count">0</span>
+</div>
+<div class="rating">
+  <span class="rating-btn material-icons">thumb_down</span>
+  <span class="rating-count">0</span>
+</div>
+</div>
+</div>
+</body>
+</html>
